@@ -82,7 +82,7 @@ public class Glavni1 {
 	}
 	
 	public static int posednjaCifra(String s) {
-		for(int i =s.length()-1; i > 0; i--) {
+		for(int i =s.length()-1; i >= 0; i--) {
 			if(Character.isDigit( s.charAt(i))) {
 				return Character.getNumericValue(s.charAt(i)); 
 			}
